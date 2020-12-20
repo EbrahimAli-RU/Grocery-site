@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button } from 'reactstrap'
+import Navigation from '../container/navigation/Navigation'
 
 function App() {
   return (
     <div className="App">
-      <Button color="primary" outline>Check</Button>
+      <Navigation />
     </div>
   );
 }

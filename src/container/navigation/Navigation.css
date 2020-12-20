@@ -1,0 +1,33 @@
+.Navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 315px;
+    background-color: #fdd670;
+}
+.NavigationLink {
+    text-decoration: none;
+    color: black;
+    padding: 18px 30px;
+    background-color: blue;
+    float: right;
+}
+.NavigationLink:hover {
+    background-color: brown;
+    text-decoration: none;
+}
+.InputDiv {
+    background-color: white;
+    border: 1px solid white;
+    width: 60%;
+    margin: 8px 16px;
+    padding: 8px;
+    display: inline-block;
+}
+.Nav_input {
+    border: none;
+    outline: none;
+    width: 98%;
+    
+}
